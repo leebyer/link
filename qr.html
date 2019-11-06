@@ -1,0 +1,21 @@
+<script>
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://baidu.com";
+    }
+    if (/(x86_64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://baidu.com";
+    }
+    if (/(Macintosh)/i.test(navigator.userAgent)) {
+        window.location.href = "https://baidu.com";
+    }
+	// If this app does not support a platform
+    if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+        }
+    if (/(iPad)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+    }
+    if (/(Android)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+    }
+</script>
