@@ -10,8 +10,16 @@
     }
 	// If this app does not support a platform
     if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
-        alert("请");
+        if(navigator.userAgent.match(/Alipay/i)) {
+	window.location.href = "https://qr.alipay.com/fkx07495kuf78ak3hxiqge0"
         }
+        if(navigator.userAgent.match(/MicroMessenger\//i)) {
+	alert("we");
+        }
+        if(navigator.userAgent.match(/QQ\//i)) {
+	alert("qq");
+        }
+    }
     if (/(iPad)/i.test(navigator.userAgent)) {
         alert("5");
     }
